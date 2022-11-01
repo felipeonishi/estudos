@@ -52,8 +52,27 @@ that condition is false.
 
 Syntax
 
-<iframe height=75px src="If_Else_Syntax.txt"></iframe>
+<iframe height=105px src="If_Else_Syntax.txt"></iframe>
 
+Example
+
+Output "Have a good day!" if the current time is less than 20, and "Have a good night!" 
+otherwise:
+
+<iframe height=170px src="if_else_example.txt"></iframe>
+
+<h3>PHP - The if...elseif...else Statement</h3>
+The if...elseif...else statement executes different codes for more than two conditions.
+
+Syntax
+
+<iframe height=200px src="if_elseif_else.txt"></iframe>
+
+Example
+Output "Have a good morning!" if the current time is less than 10, and "Have a good day!" 
+if the current time is less than 20. Otherwise it will output "Have a good night!":
+
+<iframe height=250px src="if_elseif_else_example.txt"></iframe>
 
 </pre>
 </body>

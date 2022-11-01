@@ -1,0 +1,5 @@
+if (condition) {
+code to be executed if confition is true;
+} else {
+code to be executed if condition is false;
+}
