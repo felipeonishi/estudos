@@ -1,0 +1,12 @@
+// Constants_Global.txt
+
+<?php
+define("GREETING", "Welcome to W3Scholl.com!");
+
+function mytest() {
+
+echo GREETING;
+}
+
+mytest();
+?>

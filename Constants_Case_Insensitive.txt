@@ -1,0 +1,4 @@
+<?php 
+define("GREETINGS", "Welcome to W3Scholl.com!", true);
+echo greetings;
+?>

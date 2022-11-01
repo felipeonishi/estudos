@@ -1,0 +1,4 @@
+php -S <Endereco_IP:Porta> 
+
+Ex.:
+php -S 127.0.0.1:5020

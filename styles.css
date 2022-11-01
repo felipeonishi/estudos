@@ -1,0 +1,39 @@
+body {
+    background-color: #282828;
+    color: rgba(255, 255, 255, 0.527);
+}
+
+h1 {
+    color: #96332c;
+}
+
+p {
+    color: #96332c;
+    text-decoration: none;
+}
+
+a {
+    text-decoration: none;
+    color: #99D7A7;
+}
+
+ax {
+    color: #257a5c;
+}
+
+az {
+    color: rgba(255, 255, 255, 0.527)
+}
+
+iframe {
+    width: 50%;
+    /*height: 150px;*/
+}
+
+table,
+th,
+td {
+    border: 1px solid rgba(139, 127, 127, 0.308);
+    border-radius: 3px;
+    text-align: left;
+}
