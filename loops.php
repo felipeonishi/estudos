@@ -29,6 +29,10 @@ In PHP, we have the following loop types:
    as the specified condition is true
  • <a target=_blank href="for.php">for</a> - loops through a block of code a specified number of times
  • <a target=_blank href="foreach.php">foreach</a> - loops through a block of code for each element in an array
+ • <a target=_blank href="break_continue.php">Break and Continue: </a> 
+  - The break statement can also be used to jump out of a loop.
+  - The continue statement breaks one iteration (in the loop), if a specified condition occurs, and continues with the 
+     next iteration in the loop.
  
  The following chapters will explain and give examples of each loop type.
 
