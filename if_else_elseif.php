@@ -38,12 +38,12 @@ Output "Have a good day!" if the current time (HOUR) is less than 20:
 <iframe height=140px src="HaveGoodDay_IF_Hour.txt"></iframe> 
 <p>Result:</p>
 <ax><?php
-$t = date("H");
+    $t = date("H");
 
-if ($t < "20") {
-    echo "Have a good day!";
-}
-?>
+    if ($t < "20") {
+        echo "Have a good day!";
+    }
+    ?>
 </ax>
 
 <h3>PHP - The if...else Statement</h3>
@@ -72,7 +72,25 @@ Example
 Output "Have a good morning!" if the current time is less than 10, and "Have a good day!" 
 if the current time is less than 20. Otherwise it will output "Have a good night!":
 
-<iframe height=250px src="if_elseif_else_example.txt"></iframe>
+<iframe height=210px src="if_elseif_else_example.txt"></iframe>
+<p>Result:</p>
+<?php
+$t = date("H");
+
+if ($t < "10") {
+    echo "Have a good morning!";
+} elseif ($t < "20") {
+    echo "Have a good day!";
+} else {
+    echo "Have a good night!";
+}
+?>
+
+<h3>PHP - The switch Statement</h3>
+The switch statement will be explained in the next chapter.
+
+
+end.
 
 </pre>
 </body>

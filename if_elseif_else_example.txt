@@ -8,3 +8,5 @@ if ($t < "10") {
 } else {
     echo "Have a good night!";
 }
+
+?>

@@ -39,9 +39,9 @@
         <ax>-</ax>
         <a href="/php_teste/estudos/Switch.php" target="_blank"> Switch </a>
         <ax>-</ax>
-        <a href="/php_teste/estudos/Loops.txt" target="_blank"> Loops </a>
+        <a href="/php_teste/estudos/Loops.php" target="_blank"> Loops </a>
         <ax>-</ax>
-        <a href="/php_teste/estudos/Functions.txt" target="_blank"> Functions </a>
+        <a href="/php_teste/estudos/Functions.php" target="_blank"> Functions </a>
         <ax>-</ax>
         <a href="/php_teste/estudos/Arrays.txt" target="_blank"> Arrays </a>
         <ax>-</ax>
