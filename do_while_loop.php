@@ -14,13 +14,14 @@
 <h2>PHP do while Loop</h2>
 
 <hr>
-The do...while loop - Loops through a block of code once, and then repeats the loop as long as the specified condition is true.
+The do...while loop - Loops through a block of code once, and then repeats 
+the loop as long as the specified condition is true.
 
 <hr>
 
 The PHP do...while Loop
-The do...while loop will always execute the block of code once, it will then check 
-the condition, and repeat the loop while the specified condition is true.
+The do...while loop will always execute the block of code once, it will then 
+check the condition, and repeat the loop while the specified condition is true.
 
 Syntax
 
@@ -70,6 +71,11 @@ do {
 ?>
 
 
+
+<hr>
+
+
+end.
 
 </pre>
 </body>
