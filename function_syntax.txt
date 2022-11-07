@@ -1,0 +1,3 @@
+function functionname(){
+    code to be executed;
+}

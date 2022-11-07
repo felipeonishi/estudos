@@ -7,14 +7,32 @@ h1 {
     color: #96332c;
 }
 
+h2 {
+    color: #03fa7286;
+}
+
+h3 {
+    color: #ffffff;
+}
+
 p {
-    color: #96332c;
+    color: #7abe2d;
+    text-decoration: none;
+}
+
+s {
+    color: #b9d328;
     text-decoration: none;
 }
 
 a {
     text-decoration: none;
     color: #99D7A7;
+}
+
+r {
+    color: #ff7b009a;
+    text-decoration: none;
 }
 
 ax {
