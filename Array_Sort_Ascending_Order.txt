@@ -1,0 +1,10 @@
+<?php
+$cars = array("Volvo","BMW","Toyta");
+sort($cars);
+
+$clenght = count($cars);
+for($x = 0; $x < $clenght; $x++) {
+    echo $cars[$x];
+    echo "<br>";
+}
+?>

@@ -1,0 +1,10 @@
+<?php
+$numbers = array(4,6,2,22,11);
+rsort($numbers);
+
+$clenght = count($numbers);
+for ($x = 0; $x < $clenght; $x++) {
+    echo $numbers[$x];
+    echo "<br>";
+}
+?>
