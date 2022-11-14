@@ -46,13 +46,13 @@
                 <li><a href="/php_teste/estudos/Superglobals_POST.php" target="_blank"> $_POST </a></li>
                 <li><a href="/php_teste/estudos/Superglobals_GET.php" target="_blank"> $_GET </a></li>
             </ul>
-            <li><a href="/php_teste/estudos/RegEx.txt" target="_blank"> RegEx </a></li>
+            <li><a href="/php_teste/estudos/RegEx.php" target="_blank"> RegEx </a></li>
         </ul>
         
         <h1 style="color: ff7b009a"> PHP FORMS </h1>
         <ul>
-            <li><a href="/php_teste/estudos/ .php" target="_blank"> Form Handling </a></li>
-            <li><a href="/php_teste/estudos/ .php" target="_blank"> Form Validation </a></li>
+            <li><a href="/php_teste/estudos/Form_Handling.php" target="_blank"> Form Handling </a></li>
+            <li><a href="/php_teste/estudos/Form_Validation.php" target="_blank"> Form Validation </a></li>
             <li><a href="/php_teste/estudos/ .php" target="_blank"> Form Required </a></li>
             <li><a href="/php_teste/estudos/ .php" target="_blank"> Form URL/E-mail </a></li>
             <li><a href="/php_teste/estudos/ .php" target="_blank"> Form Complete </a></li>
