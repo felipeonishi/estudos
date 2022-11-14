@@ -16,8 +16,7 @@ h3 {
 }
 
 p {
-    color: #000000;
-    text-decoration: none;
+    display: block;
 }
 
 s {
@@ -83,9 +82,12 @@ ul {
 main {
     margin: 0;
     padding: 5px;
-    background-color: rgba(211, 211, 211, 0.212);
+    background-color: #ffffff2a;
+    color: #bdbdbd;
     width: 98%;
+    border-radius: 10px;
 }
+
 main > h1, p, .browser {
   margin: 30px;
   padding: 10px;
@@ -102,4 +104,23 @@ main > h1, p, .browser {
 
 th, td {
   padding: 10px;
+}
+
+div {
+  background-color: #b9d32885;
+  color: white;
+  padding-left: 20px;
+  border-radius: 10px;
+  border: solid #ffffff59;
+}
+
+article {
+  background-color: #ffffff3b;
+  color: #ffffff;
+  padding-left: 20px;
+  margin-right: 10px;
+  margin-left: 10px;
+  border-radius: 10px;
+  border: solid #5c59598e;
+  padding-bottom: 10px;
 }
