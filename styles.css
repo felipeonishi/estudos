@@ -43,8 +43,7 @@ az {
 }
 
 iframe {
-    width: 90%;
-    /*height: 150px;*/
+    width: 100%;
 }
 
 table,
@@ -84,7 +83,7 @@ main {
     padding: 5px;
     background-color: #ffffff2a;
     color: #bdbdbd;
-    width: 98%;
+    width: 99%;
     border-radius: 10px;
 }
 
@@ -123,4 +122,16 @@ article {
   border-radius: 10px;
   border: solid #5c59598e;
   padding-bottom: 10px;
+}
+
+.ws-table-all {
+  border-collapse: collapse;
+  border-spacing: 0;
+  width: 100%;
+  display: table;
+  border: 1px solid #ccc;
+}
+
+.error {
+  color: #FF0000;
 }
