@@ -17,6 +17,7 @@ h3 {
 
 p {
     display: block;
+    
 }
 
 s {
@@ -44,6 +45,7 @@ az {
 
 iframe {
     width: 100%;
+    border-radius: 10px;
 }
 
 table,
@@ -87,7 +89,7 @@ main {
     border-radius: 10px;
 }
 
-main > h1, p, .browser {
+main > h1, .browser {
   margin: 30px;
   padding: 10px;
 }
@@ -96,7 +98,7 @@ main > h1, p, .browser {
   background: rgba(255, 255, 255, 0.267);
 }
 
-.browser > h2, p {
+.browser > h2{
   margin: 4px;
   font-size: 90%;
 }
@@ -134,4 +136,8 @@ article {
 
 .error {
   color: #FF0000;
+}
+
+hr {
+  margin-top: 15px;
 }

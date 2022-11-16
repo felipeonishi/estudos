@@ -60,7 +60,23 @@ if (!preg_match("/\b(?:(?:https?|ftp):\/\/|www\.)[-a-z0-9+&@#\/%?=~_|!:,.;]*[-a-
 <h2>PHP - Validate Name, E-mail, and URL</h2>
 Now, the script looks like this:
 
-<iframe src="Form_Validate_Name_Email_and_URL.txt" frameborder="0"></iframe>
+<main>
+Example
+
+<iframe  height="969px" src="Form_Validate_Name_Email_and_URL.txt" frameborder="0"></iframe>
+
+</main>
+
+RESULT:
+
+<form action="Form_Run_Example_Validate_Name_Email_and_URL.php" target="_blank">
+<button>Run Example</button>
+</form>
+
+The next step is to show how to prevent the form from emptying all the input fields when the user submits the form.
+
+
+<hr color="tomato">
 </pre>
 </body>
 </html>
