@@ -64,8 +64,8 @@
         <ul>
             <li><a href="/php_teste/estudos/Date_and_Time.php" target="_blank"> Date and Time </a></li>
             <li><a href="/php_teste/estudos/Include_Files.php" target="_blank"> Include </a></li>
-            <li><a href="/php_teste/estudos/ .php" target="_blank"> File Handling </a></li>
-            <li><a href="/php_teste/estudos/ .php" target="_blank"> File Open/Read </a></li>
+            <li><a href="/php_teste/estudos/File_Handling.php" target="_blank"> File Handling </a></li>
+            <li><a href="/php_teste/estudos/File_Open_Read.php" target="_blank"> File Open/Read </a></li>
             <li><a href="/php_teste/estudos/ .php" target="_blank"> File Create/Write </a></li>
             <li><a href="/php_teste/estudos/ .php" target="_blank"> File Upload </a></li>
             <li><a href="/php_teste/estudos/ .php" target="_blank"> Cookies </a></li>
