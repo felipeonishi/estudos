@@ -1,0 +1,11 @@
+<html>
+<body>
+<b>Welcome to my home page!</b>
+
+<?php
+include 'noFileExists.php';
+echo "I have a $color $car.";
+?>
+
+</body>
+</html>

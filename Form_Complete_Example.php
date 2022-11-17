@@ -29,21 +29,21 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
       }
 
     if (empty($_POST["email"])) {
-        $emailErr = "E-mail is required";
+        $emailErr = "Email is required";
     } else {
-        $email = test_input($POST["email"]);
-        // check if email address is well-formed
+        $email = test_input($_POST["email"]);
+        // check if e-mail address is well-formed
         if (!filter_var($email, FILTER_VALIDATE_EMAIL)) {
-            $emailErr = "Invalid e-mail format";
+            $emailErr = "Invalid email format";
         }
     }
 
-    if(empty($_POST["website"])) {
+    if (empty($_POST["website"])) {
         $website = "";
     } else {
         $website = test_input($_POST["website"]);
-        //check if URL address syntax is valid (this regular)
-        if (!preg_match("/\b(?:(?:https?|ftp):\/\/|www\.)[-a-z0-9+&@#\/%?=~_|!:,.;]*[-a-z0-9+&@#\/%=~_|]/i", $website)){
+        // check if URL address syntax is valid (this regular)
+        if (!preg_match("/\b(?:(?:https?|ftp):\/\/|www\.)[-a-z0-9+&@#\/%?=~_|!:,.;]*[-a-z0-9+&@#\/%=~_|]/i",$website)) {
             $websiteErr = "Invalid URL";
         }
     }
@@ -72,33 +72,35 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
 
 <h2>PHP Form Validation Example</h2>
 <span class="error">* required field</span>
-
-<form method="post" action="<?php echo htmlspecialchars($_SERVER["PHP_SELF"]); ?>">
-
-Name:    <input type="text" name="name"    value="<?php echo $name; ?>">    
+<form method="post" action="<?php echo htmlspecialchars($_SERVER["PHP_SELF"]);?>">
+Name:       <input type="text" name="name"    value="<?php echo $name; ?>">    
 <span class="error">* <?php echo $nameErr ; ?>      </span>
-E-mail:  <input type="text" name="email"   value="<?php echo $email; ?>">   
+E-mail:     <input type="text" name="email"   value="<?php echo $email; ?>">   
 <span class="error">* <?php echo $emailErr; ?>      </span>
-Website: <input type="text" name="website" value="<?php echo $website; ?>"> 
+Website:    <input type="text" name="website" value="<?php echo $website; ?>"> 
 <span class="error">* <?php echo $websiteErr; ?>    </span>
-
 Comment:    <textarea name="comment" cols="40" rows="5"><?php echo $comment; ?></textarea>
+
 Gender:     
 <input type="radio" name="gender" <?php if (isset($gender) && $gender=="female") echo "checked"; ?>     value="female"> Female 
-<input type="radio" name="gender" <?php if (isset($gender) && $gender == "male") echo "checked";?>      value="male"> Male 
-<input type="radio" name="gender" <?php if (isset($gender) && $gender == "other") echo "checked"; ?>    value="other"> other
+<input type="radio" name="gender" <?php if (isset($gender) && $gender=="male") echo "checked";?>      value="male"> Male 
+<input type="radio" name="gender" <?php if (isset($gender) && $gender=="other") echo "checked"; ?>    value="other"> other
 <span class="error">* <?php echo $genderErr;?></span>
 <input type="submit" name="submit" value="Submit">
 
 <?php
-"<pre>";
-echo "<h2>Your Input is:<h2>";
+
+echo "<h2>Your Input is:</h2>";
 echo $name;
+echo "<br>";
 echo $email;
+echo "<br>";
 echo $website;
+echo "<br>";
 echo $comment;
+echo "<br>";
 echo $gender;
-"</pre>";
+echo "<br>";
 ?>
 </form>
 </article>

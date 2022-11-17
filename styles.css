@@ -36,7 +36,7 @@ r {
 }
 
 ax {
-    color: #257a5c;
+    color: #9a9c2a;
 }
 
 az {
@@ -44,7 +44,7 @@ az {
 }
 
 iframe {
-    width: 100%;
+    width: 98%;
     border-radius: 10px;
 }
 
@@ -82,11 +82,14 @@ ul {
 
 main {
     margin: 0;
-    padding: 5px;
+    padding-left: 10px;
+    padding-bottom: 10px;
+    padding-top: 10px ;
     background-color: #ffffff2a;
     color: #bdbdbd;
     width: 99%;
     border-radius: 10px;
+    
 }
 
 main > h1, .browser {
@@ -110,7 +113,8 @@ th, td {
 div {
   background-color: #b9d32885;
   color: white;
-  padding-left: 20px;
+  padding-left: 10px;
+  padding-bottom: 10px;
   border-radius: 10px;
   border: solid #ffffff59;
 }
@@ -119,8 +123,7 @@ article {
   background-color: #ffffff3b;
   color: #ffffff;
   padding-left: 20px;
-  margin-right: 10px;
-  margin-left: 10px;
+  padding-right: 20px;
   border-radius: 10px;
   border: solid #5c59598e;
   padding-bottom: 10px;
@@ -140,4 +143,14 @@ article {
 
 hr {
   margin-top: 15px;
+}
+
+b {
+  color: #ff9204d5;
+  font-size: x-large;
+}
+
+menu {
+  -webkit-text-fill-color: #111111;
+  -webkit-text-stroke-color: #ff0000;
 }
