@@ -4,11 +4,12 @@ body {
 }
 
 h1 {
-    color: #96332c;
+    color: #ff5100;
 }
 
 h2 {
-    color: rgba(250, 212, 0, 0.808);
+    /* color: rgba(250, 212, 0, 0.808); */
+    color: tomato;
 }
 
 h3 {

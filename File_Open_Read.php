@@ -226,7 +226,7 @@ fclose($myfile);
 $myfile = fopen("webdictionary.txt", "r") or die("Unable to open file!");
 // Output one character until enf-of-file
 while(!feof($myfile)) {
-  echo !fgetc($myfile);
+  echo fgetc($myfile);
 }
 
 fclose($myfile);
@@ -234,6 +234,7 @@ fclose($myfile);
 
 
 <strong>Note: </strong>After a call to the fgetc() function, the file pointer moves to the next character.
+
 <hr>
 
 <h2>Complete PHP Filesystem Reference</h2>
