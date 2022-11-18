@@ -42,7 +42,7 @@ Without the requirements above, the file upload will not work.
 
 Other things to notice:
 
-The type="file" attribute of the <input> tag shows the input field as a file-select control, with 
+The type="file" attribute of the &lt;input&gt; tag shows the input field as a file-select control, with 
 a "Browse" button next to the input control
 
 The form above sends data to a file called "upload.php", which we will create next.
@@ -132,9 +132,20 @@ if($imageFileType != "jpg"
 The complete "upload.php" file now looks like this:
 
 <main>
-<iframe height="850px" src="" frameborder="0"></iframe>
+<iframe height="850px" src="File_Upload_Complete_PHP_Script.txt" frameborder="0"></iframe>
 </main>
 
+<form action="uploads/upload.php" method="post" enctype="multipart/form-data" target="_blank">
+    Select image to upload:
+
+    <input type="file" name="fileToUpload" id="fileToUpload"> 
+    <input type="submit" value="Upload Image" name="submit">
+</form>
+
+<hr>
+
+<h2>Complete PHP Filesystem Reference</h2>
+For a complete reference of filesystem functions, go to our complete <a href="https://www.w3schools.com/php/php_ref_filesystem.asp">PHP Filesystem Reference</a>.
 
 
 <hr color="tomato"> 
