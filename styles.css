@@ -73,11 +73,17 @@ ax {
 }
 
 az {
-    color: rgb(245, 132, 57)
+    /* color: rgb(245, 132, 57)
+     */
+     color: tomato;
 }
 
 ar {
   color: #c9c9c99d;
+}
+
+av {
+  color: #ff9999;
 }
 
 iframe {
